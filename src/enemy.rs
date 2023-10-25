@@ -1,7 +1,7 @@
 pub enum Enemy{
-    Goblin{name: String, lvl: u32, hp: i32, damage: i8},
-    Ogre{name: String, lvl: u32, hp: i32, damage: i8},
-    DungeonKeeper{name: String, lvl: u32, hp: i32, damage: i8},
+    Goblin,
+    Ogre,
+    DungeonKeeper,
 }
 pub struct EnemyPattern{
     pub name:  String, 
